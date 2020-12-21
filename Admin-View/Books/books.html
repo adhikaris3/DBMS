@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0,
+                  maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Books-R-Us | Books-Admin</title>
+
+    <!--Ion Icons-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="books-styles.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+
+        <div class="nav-brand">
+          <a href="index.html">
+            <img src="../images/turtle.png" alt="">
+          </a>
+        </div>
+
+        <div class="menu-icons open">
+          <i class="icon ion-md-menu"></i>
+        </div>
+
+        <ul class="nav-list">
+
+          <div class="menu-icons close">
+            <i class="icon ion-md-close"></i>
+          </div>
+
+          <li class="nav-item">
+            <a href="../Home/Admin-Home.html" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="../Customers/customers.html" class="nav-link">Customers</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="books.html" class="nav-link current">Books</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="../Suppliers/suppliers.html" class="nav-link">Suppliers</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="../Authors/authors.html" class="nav-link">Authors</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="../Orders/orders.html" class="nav-link">Orders</a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="search-bar">
+      <input type="text" name="search" value="" id="myinput"
+      placeholder="Search Books">
+    </div>
+    <section class="books">
+      <div class="container">
+
+        <div class="title-heading">
+          <h1>Books</h1>
+        </div>
+      </div>
+    </section>
+
+    <div class="small-container book">
+			<table id="books-info">
+        <tr>
+          <th id="ISBN">ISBN</th>
+          <th id="UserReviews">User Reviews</th>
+          <th id="Title">Title</th>
+          <th id="Price">Price</th>
+          <th id="Update">Update</th>
+        </tr>
+			</table>
+		</div>
+
+  </main>
+
+</body>
+</html>
