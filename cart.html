@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0,
+                  maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Books-R-Us | Cart</title>
+
+    <!--Ion Icons-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="cart-styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+
+        <div class="nav-brand">
+          <a href="index.html">
+            <img src="../images/turtle.png" alt="">
+          </a>
+        </div>
+
+        <div class="menu-icons open">
+          <i class="icon ion-md-menu"></i>
+        </div>
+
+        <ul class="nav-list">
+
+          <div class="menu-icons close">
+            <i class="icon ion-md-close"></i>
+          </div>
+
+          <li class="nav-item">
+            <a href="../Home/index.html" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="../Home/index.html" class="nav-link">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="../Search/search.html" class="nav-link">Search</a>
+          </li>
+            
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link current">Cart</a>
+          </li>
+            <li class="nav-item">
+                <a href="../Login-Signup/login.html" class="nav-link">Login</a>
+            </li>
+            
+
+        </ul>
+        <form class="search-bar" action="" method="">
+          <input type="text" placeholder="Search">
+          <a class="btn" href="#">
+            <i class="icon ion-md-search"></i>
+          </a>
+        </form>
+      </nav>
+    </div>
+  </header>
+
+  <div class="small-container cart">
+    <table id="cart-table">
+      <tr>
+        <th id="book">Book</th>
+        <th id="quantity">Quantity</th>
+        <th id="subtotal">Subtotal</th>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="book-info">
+            <img src="book-cover.jpg">
+            <div>
+              <p>Book Name hslkhfdlkhflhf </p>
+              <small>Price: $10.99</small>
+              <br>
+              <a href="#">Remove</a>
+            </div>
+          </div>
+        </td>
+
+        <td>
+          <input type="number" name="amount-wanted" min="1" max="3">
+        </td>
+        <td>$10.99</td>
+
+      </tr>
+
+      <tr>
+        <td>
+          <div class="book-info">
+            <img src="book-cover.jpg">
+            <div>
+              <p>Book Name hslkhfdlkhflhf </p>
+              <small>Price: $10.99</small>
+              <br>
+              <a href="#">Remove</a>
+            </div>
+          </div>
+        </td>
+
+        <td>
+          <input type="number" name="amount-wanted" min="1" max="3">
+        </td>
+        <td>$10.99</td>
+
+      </tr>
+
+      <tr>
+        <td>
+          <div class="book-info">
+            <img src="book-cover.jpg">
+            <div>
+              <p>Book Name hslkhfdlkhflhf </p>
+              <small>Price: $10.99</small>
+              <br>
+              <a href="#">Remove</a>
+            </div>
+          </div>
+        </td>
+
+        <td>
+          <input type="number" name="amount-wanted" min="1" max="3">
+        </td>
+        <td>$10.99</td>
+
+      </tr>
+    </table>
+
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Total</td>
+          <td>$200.00</td>
+        </tr>
+      </table>
+
+      <a class="btn" href="#">Confirm Order</a>
+
+    </div>
+<script type="text/javascript" src="cart-scripts.js"></script>
+</body>
+</html>
