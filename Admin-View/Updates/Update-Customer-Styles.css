@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.update-customer{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+  url("../images/update-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.form-box{
+  width: 380px;
+  height: 580px;
+  position: relative;
+  margin: 6% auto;
+  background: #fafafa;
+  padding: 5px;
+}
+
+.form-box h1{
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1.6rem;
+}
+
+.toggle-btn{
+  padding: 10px 110px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+.update-customer-input-group{
+  top: 135px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, rgba(49, 24, 131, 0.9) 0%,
+  rgba(47, 115, 149, 0.8) 100%);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  font-size: 1rem;
+}
+
+#update{
+  left: 50px;
+}
